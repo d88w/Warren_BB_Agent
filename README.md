@@ -17,44 +17,44 @@ The agent is capable of reasoning through financial data, applying timeless inve
 ⸻
 
 🚀 How It Works
-	1.	✅ System Prompt: A curated prompt simulates an agent trained by the greatest investors of all time.
-	2.	🔧 Tool: fetch_stock_data(): Fetches live financial metrics for a given stock ticker from Finnhub.
-	3.	🤖 Agent: Uses FunctionTool from LlamaIndex to enable the tool, and responds to queries like “Is AAPL a compounder?” with real data and cited logic.
+1. ✅ System Prompt: A curated prompt simulates an agent trained by the greatest investors of all time.
+2. 🔧 Tool: fetch_stock_data(): Fetches live financial metrics for a given stock ticker from Finnhub.
+3. 🤖 Agent: Uses FunctionTool from LlamaIndex to enable the tool, and responds to queries like “Is AAPL a compounder?” with real data and cited logic.
 
 ⸻
 
 🛠 Setup Instructions
-1.	Install dependencies:
-pip install openai llama-index requests
+1. Install dependencies:
+- pip install openai llama-index requests
 
-2.	Add API Keys:
-In the notebook, replace:
-os.environ['OPENAI_API_KEY'] = 'your-openai-api-key'
-FINNHUB_API_KEY = 'your-finnhub-api-key'
+2. Add API Keys:
+- In the notebook, replace:
+- os.environ['OPENAI_API_KEY'] = 'your-openai-api-key'
+- FINNHUB_API_KEY = 'your-finnhub-api-key'
 
-3.	Run Example:
-The agent is pre-configured to handle:
-agent.chat("Evaluate AAPL as a long-term compounder.")
+3. Run Example:
+- The agent is pre-configured to handle:
+- agent.chat("Evaluate AAPL as a long-term compounder.")
 
 💡 Example Use Cases
-	•	“What would Buffett think of Tesla?”
-	•	“Analyze Google’s moat and valuation.”
-	•	“Fetch and interpret the financials of NVDA.”
-	•	“Which metrics would Graham use to analyze this?”
+- “What would Buffett think of Tesla?”
+- “Analyze Google’s moat and valuation.”
+- “Fetch and interpret the financials of NVDA.”
+- “Which metrics would Graham use to analyze this?”
 
 ⸻
 
 📚 Cited Investors
 
 This agent reasons using quotes and principles from:
-	•	Benjamin Graham
-	•	Warren Buffett
-	•	Charlie Munger
-	•	Philip Fisher
-	•	Peter Lynch
-	•	Chuck Akre
-	•	T. Rowe Price Jr.
-	•	Terry Smith
+- Benjamin Graham
+- Warren Buffett
+- Charlie Munger
+- Philip Fisher
+- Peter Lynch
+- Chuck Akre
+- T. Rowe Price Jr.
+- Terry Smith
 
 Each recommendation will include reference to their core ideas where applicable.
 

@@ -25,22 +25,22 @@ The agent is capable of reasoning through financial data, applying timeless inve
 
 🛠 Setup Instructions
 1. Install dependencies:
- - pip install openai llama-index requests
+  - pip install openai llama-index requests
 
 2. Add API Keys:
- - In the notebook, replace:
- - os.environ['OPENAI_API_KEY'] = 'your-openai-api-key'
- - FINNHUB_API_KEY = 'your-finnhub-api-key'
+  - In the notebook, replace:
+  - os.environ['OPENAI_API_KEY'] = 'your-openai-api-key'
+  - FINNHUB_API_KEY = 'your-finnhub-api-key'
 
 3. Run Example:
- - The agent is pre-configured to handle:
- - agent.chat("Evaluate AAPL as a long-term compounder.")
+  - The agent is pre-configured to handle:
+  - agent.chat("Evaluate AAPL as a long-term compounder.")
 
-💡 Example Use Cases
- - “What would Buffett think of Tesla?”
- - “Analyze Google’s moat and valuation.”
- - “Fetch and interpret the financials of NVDA.”
- - “Which metrics would Graham use to analyze this?”
+4. Example Use Cases
+  - “What would Buffett think of Tesla?”
+  - “Analyze Google’s moat and valuation.”
+  - “Fetch and interpret the financials of NVDA.”
+  - “Which metrics would Graham use to analyze this?”
 
 ⸻
 

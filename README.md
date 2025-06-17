@@ -7,11 +7,11 @@ The agent is capable of reasoning through financial data, applying timeless inve
 ⸻
 
 🧠 Core Features
-Value + Growth Investing Principles
+- Value + Growth Investing Principles
 - Grounded in the philosophies of Graham, Buffett, Munger, and other legendary investors. All answers are backed by cited investor quotes or paraphrased principles.
-Live Financial Data
+- Live Financial Data
 - Uses the Finnhub API to retrieve real-time stock prices, P/E ratios, FCF yield, and ROIC.
-OpenAI-powered Reasoning
+- OpenAI-powered Reasoning
 - Integrated with OpenAIAgent from LlamaIndex to interpret questions, invoke tools, and respond as an intelligent financial advisor.
 
 ⸻
